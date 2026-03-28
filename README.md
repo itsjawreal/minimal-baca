@@ -9,9 +9,9 @@ Supported environments:
 
 ---
 
-# 🧠 Overview
+## 🧠 Overview
 
-Bot ini akan:
+### Bot ini akan:
 
 1. Membuat email (mail.tm)
 2. Kirim magic link
@@ -220,33 +220,33 @@ docker stop blinkbot
 docker start blinkbot
 ```
 
-# ⚠️ PENTING
+## ⚠️ PENTING
 
 ---
 
-## ❗ VPS = Headless Mode
+### ❗ VPS = Headless Mode
 
 Tidak ada browser GUI → normal.
 
 ---
 
-## ❗ CAPTCHA kemungkinan muncul
+### ❗ CAPTCHA kemungkinan muncul
 
-Penyebab:
+#### Penyebab:
 
 * IP VPS (datacenter)
 * terlalu banyak request
 
-Solusi:
+### Solusi:
 
 * gunakan proxy residential
 * tambahkan delay
 
 ---
 
-# 🧠 TROUBLESHOOTING
+## 🧠 TROUBLESHOOTING
 
-## ❌ Module not found
+### ❌ Module not found
 
 ```bash
 pip install -r requirements.txt
@@ -254,7 +254,7 @@ pip install -r requirements.txt
 
 ---
 
-## ❌ Playwright error
+### ❌ Playwright error
 
 ```bash
 playwright install
@@ -262,20 +262,20 @@ playwright install
 
 ---
 
-## ❌ Stripe iframe tidak ditemukan
+### ❌ Stripe iframe tidak ditemukan
 
 * tambah delay
 * cek koneksi VPS
 
 ---
 
-## ❌ Rate limit (magic link)
+### ❌ Rate limit (magic link)
 
 Normal → sudah ada retry di code
 
 ---
 
-# 🎯 BEST PRACTICE
+## 🎯 BEST PRACTICE
 
 * Gunakan Windows untuk testing
 * Gunakan VPS untuk production
@@ -284,16 +284,6 @@ Normal → sudah ada retry di code
 
 ---
 
-# 🚀 NEXT STEP
-
-Setelah ini kamu bisa:
-
-* scaling multi VPS
-* proxy rotation
-* automation pipeline
-
----
-
-# ⚡ Disclaimer
+## ⚡ Disclaimer
 
 Gunakan dengan bijak.
