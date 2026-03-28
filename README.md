@@ -220,6 +220,14 @@ docker stop blinkbot
 docker start blinkbot
 ```
 
+## Agent-Mode
+### Buat liat api agent bisa ikutin step ini :
+- buka https://mail.tm/en/
+- Login email dan pw ada di accounts.json
+- buka https://blink.new/sign-in
+- Login dengan email yang sama
+- Verif link nya di mail.tm
+
 ## ⚠️ PENTING
 
 ---
