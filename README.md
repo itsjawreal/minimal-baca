@@ -184,7 +184,7 @@ CTRL + A + D
 
 ---
 
-## 🐳 Docker Deployment
+# 🐳 Docker Deployment For VPS (Recomended)
 ### Build image
 ```bash
 docker build -t blink-bot .
